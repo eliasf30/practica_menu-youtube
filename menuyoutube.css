@@ -10,16 +10,45 @@
     background: #202020;
     height: 56px;
     position: relative;
+    width: 100vw;
+  
     
 }
 
+.search-input{
+    position: relative;
+    color:black;
+    width: 560px;
+    height: 30px;
+    left: 500px;
+    top: 10px;
+    font-family: 'Roboto','Noto',sans-serif;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 24px;
+    padding-left: 8px;
+
+    
+}
+
+.search-button {
+    height: 40px;
+    width: 60px;
+    position: absolute;
+    left: 1075px;
+    top: 8px;
+    
+}
+
+
+    
 .youtube-logo{
     position: absolute;
     height: 46px;
     width: 150px;
     z-index: 1000;
     top: 0;
-    left: 65px;
+    left: 75px;
     object-fit: none;
     margin-left: 20px;
 }
